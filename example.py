@@ -34,5 +34,6 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-
-print(model.score(X_test, y_test))
+print("\n\n\n")
+print(f"Score: {model.score(X_test, y_test)}")
+print("\n\n\n")
