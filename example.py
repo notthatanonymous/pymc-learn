@@ -1,7 +1,8 @@
 from warnings import filterwarnings
 filterwarnings("ignore")
 import os
-os.environ['MKL_THREADING_LAYER'] = 'GNU'
+
+#os.environ['MKL_THREADING_LAYER'] = 'GNU'
 os.environ['THEANO_FLAGS'] = 'device=cpu'    
     
 import numpy as np
